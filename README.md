@@ -6,4 +6,4 @@
 
 **Database:** MySQL.
 
-![Logo](https://lokomedia.web.id/asset/foto_berita/CI4.png)
+![Logo](https://santrikoding.com/storage/tutorial-sets/fPamkyGkCpXRyOpBJIfq0Ym7IseR8zXPcc7e3764.png)
