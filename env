@@ -1,0 +1,48 @@
+
+#--------------------------------------------------------------------
+ENVIRONMENT
+#--------------------------------------------------------------------
+
+CI_ENVIRONMENT = production
+
+#--------------------------------------------------------------------
+APP
+#--------------------------------------------------------------------
+
+app.baseURL = ''
+If you have trouble with `.`, you could also use `_`.
+app_baseURL = ''
+app.forceGlobalSecureRequests = false
+app.CSPEnabled = false
+
+#--------------------------------------------------------------------
+ DATABASE
+#--------------------------------------------------------------------
+
+ database.default.hostname = localhost
+ database.default.database = scout
+ database.default.username = 
+ database.default.password = 
+ database.default.DBDriver = MySQLi
+ database.default.DBPrefix =
+ database.default.port = 3306
+
+
+#--------------------------------------------------------------------
+ ENCRYPTION
+#--------------------------------------------------------------------
+
+ encryption.key =
+
+#--------------------------------------------------------------------
+ SESSION
+#--------------------------------------------------------------------
+
+ session.driver = 'CodeIgniter\Session\Handlers\FileHandler'
+ session.savePath = null
+
+#--------------------------------------------------------------------
+ LOGGER
+#--------------------------------------------------------------------
+
+ logger.threshold = 4
